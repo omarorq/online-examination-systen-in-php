@@ -1,247 +1,726 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<title>Project Worlds || TEST YOUR SKILL </title>
-<link  rel="stylesheet" href="css/bootstrap.min.css"/>
- <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
- <link rel="stylesheet" href="css/main.css">
- <link  rel="stylesheet" href="css/font.css">
- <script src="js/jquery.js" type="text/javascript"></script>
+	<title>Welcome</title>
 
-  <script src="js/bootstrap.min.js"  type="text/javascript"></script>
- 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-<?php if(@$_GET['w'])
-{echo'<script>alert("'.@$_GET['w'].'");</script>';}
-?>
-<script>
-function validateForm() {var y = document.forms["form"]["name"].value;	var letters = /^[A-Za-z]+$/;if (y == null || y == "") {alert("Name must be filled out.");return false;}var z =document.forms["form"]["college"].value;if (z == null || z == "") {alert("college must be filled out.");return false;}var x = document.forms["form"]["email"].value;var atpos = x.indexOf("@");
-var dotpos = x.lastIndexOf(".");if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {alert("Not a valid e-mail address.");return false;}var a = document.forms["form"]["password"].value;if(a == null || a == ""){alert("Password must be filled out");return false;}if(a.length<5 || a.length>25){alert("Passwords must be 5 to 25 characters long.");return false;}
-var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords must match.");return false;}}
-</script>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="event/css/bootstrap.min.css" />
 
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="event/css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="event/css/owl.theme.default.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="event/css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="event/css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+			  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
 </head>
-
 <body>
-<div class="header">
-<div class="row">
-<div class="col-lg-6">
-<span class="logo">Test Your Skill</span></div>
-<div class="col-md-2 col-md-offset-4">
-<a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Signin</b></span></a></div>
-<!--sign in modal start-->
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content title1">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title title1"><span style="color:orange">Log In</span></h4>
-      </div>
-      <div class="modal-body">
-        <form class="form-horizontal" action="login.php?q=index.php" method="POST">
-<fieldset>
 
+	<!-- Header -->
+	<header id="header" class="transparent-navbar">
+		<!-- container -->
+		<div class="container">
+			<!-- navbar header -->
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+					<a class="logo" href="index.php">
+						<img class="logo-img" src="./event/img/logo.png" alt="logo">
+						<img class="logo-alt-img" src="./event/img/logo-alt.png" alt="logo">
+					</a>
+				</div>
+				<!-- /Logo -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="email"></label>  
-  <div class="col-md-6">
-  <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
-    
-  </div>
-</div>
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+						<i class="fa fa-bars"></i>
+					</button>
+				<!-- /Mobile toggle -->
+			</div>
+			<!-- /navbar header -->
 
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#speakers">Team</a></li>
+					<li><a href="#sponsors">School</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="http://fcic.edu.ph/" target="_blank">Website</a></li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
 
-<!-- Password input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="password"></label>
-  <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter your Password" class="form-control input-md" type="password">
-    
-  </div>
-</div>
+	<!-- Home -->
+	<div id="home">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./event/img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Log in</button>
-		</fieldset>
-</form>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<!--sign in modal closed-->
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-8 col-md-offset-2">
+						<div class="home-content">
+							<h1>Capstone</h1>
+							<h4 class="lead">Automated Web-based IQ Test For Class Sectioning System for Junior High School in Franciscan College of the Immaculate Conception</h4>
+							<a href="resources/index.php" class="main-btn" target="_blank">Portal</a>
+						</div>
+					</div>
+					<!-- /home content -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /home wrapper -->
+	</div>
+	<!-- /Home -->
 
-</div><!--header row closed-->
-</div>
+	<!-- About -->
+	<div id="about" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>About</span> <span style="color: #FA0;">the</span> <span style="color: #dd0a37;">System</span></h3>
+				</div>
+				<!-- /section title -->
 
-<div class="bg1">
-<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- about content -->
+					<div class="about-content">
+						<p> The Guidance Office, pursues its commitment by promoting every student's welfare. It provides relevant and student-friendly services that respond to the various academic and nonacademic needs of the students.</p>
+                         <p> Class Sectioning in High School has maximum and minimum numbers of students that can enroll in one class. The maximum number of students that can enroll is 45 students and the minimum is 40. There is still a need to compute the average and the IQ test to know the final section of the students.
+The computer system that the school uses is very useful especially to the employees who have difficulty in the manual process.
+</p>
+					</div>
+					<!-- /about content -->
 
-<div class="col-md-7"></div>
-<div class="col-md-4 panel">
-<!-- sign in form begins -->  
-  <form class="form-horizontal" name="form" action="sign.php?q=account.php" onSubmit="return validateForm()" method="POST">
-<fieldset>
+					<!-- Numbers -->
+					<div id="numbers">
+						<!-- row -->
+						<div class="row">
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="150" data-speed="1500">0</span>+</h3>
+									<p>Grade 7</p>
+								</div>
+							</div>
+							<!-- /number -->
 
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="145" data-speed="1500">0</span>+</h3>
+									<p>Grade 8</p>
+								</div>
+							</div>
+							<!-- /number -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="name"></label>  
-  <div class="col-md-12">
-  <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text">
-    
-  </div>
-</div>
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="140" data-speed="1500">0</span>+</h3>
+									<p>Grade 9</p>
+								</div>
+							</div>
+							<!-- /number -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="gender"></label>
-  <div class="col-md-12">
-    <select id="gender" name="gender" placeholder="Enter your gender" class="form-control input-md" >
-   <option value="Male">Select Gender</option>
-  <option value="M">Male</option>
-  <option value="F">Female</option> </select>
-  </div>
-</div>
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="135" data-speed="1500">0</span>+</h3>
+									<p>Grade 10</p>
+								</div>
+							</div>
+							<!-- /number -->
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /Numbers -->
+				</div>
+			</div>
+			<!-- row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /About -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="name"></label>  
-  <div class="col-md-12">
-  <input id="college" name="college" placeholder="Enter your college name" class="form-control input-md" type="text">
-    
-  </div>
-</div>
+	<!-- Galery -->
+	<div id="galery">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- galery owl -->
+				<div id="galery-owl" class="owl-carousel owl-theme">
+					<!-- galery item -->
+					<div class="galery-item">
+						<img src="./event/img/galery01.jpg" alt="">
+					</div>
+					<!-- /galery item -->
 
+					<!-- galery item -->
+					<div class="galery-item">
+						<img src="./event/img/galery02.jpg" alt="">
+					</div>
+					<!-- /galery item -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label title1" for="email"></label>
-  <div class="col-md-12">
-    <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
-    
-  </div>
-</div>
+					<!-- galery item -->
+					<div class="galery-item">
+						<img src="./event/img/galery03.jpg" alt="">
+					</div>
+					<!-- /galery item -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="mob"></label>  
-  <div class="col-md-12">
-  <input id="mob" name="mob" placeholder="Enter your mobile number" class="form-control input-md" type="number">
-    
-  </div>
-</div>
+				</div>
+				<!-- /galery owl -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Galery -->
 
+	<!-- Video CTA -->
+	<div id="video-cta" class="section">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./event/img/background02.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="password"></label>
-  <div class="col-md-12">
-    <input id="password" name="password" placeholder="Enter your password" class="form-control input-md" type="password">
-    
-  </div>
-</div>
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- cta content -->
+				<div class="col-md-8 col-md-offset-2">
+					<div class="cta-content text-center">
+						<a class="video-play" href="#">
+							<i class="fa fa-play"></i>
+						</a>
+						<h2>Watch this video</h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<!-- /cta content -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Video CTA -->
 
-<div class="form-group">
-  <label class="col-md-12control-label" for="cpassword"></label>
-  <div class="col-md-12">
-    <input id="cpassword" name="cpassword" placeholder="Conform Password" class="form-control input-md" type="password">
-    
-  </div>
-</div>
-<?php if(@$_GET['q7'])
-{ echo'<p style="color:red;font-size:15px;">'.@$_GET['q7'];}?>
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-12 control-label" for=""></label>
-  <div class="col-md-12"> 
-    <input  type="submit" class="sub" value="sign up" class="btn btn-primary"/>
-  </div>
-</div>
+	<!-- Event Schedule -->
+	<div id="schedule" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Exam</span> <span style="color: #dd0a37;">Schedule</span></h3>
+				</div>
+				<!-- /section title -->
 
-</fieldset>
-</form>
-</div><!--col-md-6 end-->
-</div></div>
-</div><!--container end-->
+				<div class="col-md-8 col-md-offset-2">
 
-<!--Footer start-->
-<div class="row footer">
-<div class="col-md-3 box">
-<a href="http://www.projectworlds/online-examination" target="_blank">About us</a>
-</div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#login">Admin Login</a></div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#developers">Developers</a>
-</div>
-<div class="col-md-3 box">
-<a href="feedback.php" target="_blank">Feedback</a></div></div>
-<!-- Modal For Developers-->
-<div class="modal fade title1" id="developers">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developers</span></h4>
-      </div>
-	  
-      <div class="modal-body">
-        <p>
-		<div class="row">
-		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
-		 </div>
-		 <div class="col-md-5">
-		<a href="http://yugeshverma.blogspot.in" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Yugesh Verma</a>
-		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 9165063741</h4>
-		<h4 style="font-family:'typo' ">vermayugesh323@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Chhattishgarh insitute of management & Technology ,bhilai</h4></div></div>
-		</p>
-      </div>
-    
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+					<div class="events-wrapper">
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">15</span>
+									<span class="year">July, 2018</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
 
-<!--Modal for admin login-->
-	 <div class="modal fade" id="login">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title"><span style="color:orange;font-family:'typo' ">LOGIN</span></h4>
-      </div>
-      <div class="modal-body title1">
-<div class="row">
-<div class="col-md-3"></div>
-<div class="col-md-6">
-<form role="form" method="post" action="admin.php?q=index.php">
-<div class="form-group">
-<input type="text" name="uname" maxlength="20"  placeholder="Admin user id" class="form-control"/> 
-</div>
-<div class="form-group">
-<input type="password" name="password" maxlength="15" placeholder="Password" class="form-control"/>
-</div>
-<div class="form-group" align="center">
-<input type="submit" name="login" value="Login" class="btn btn-primary" />
-</div>
-</form>
-</div><div class="col-md-3"></div></div>
-      </div>
-      <!--<div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>-->
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<!--footer end-->
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Perpetua consectetuer definitiones id sea, mei utinam eripuit ne</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
 
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">At mucius deserunt delicatissimi eam, labitur detraxit ut sit</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">16</span>
+									<span class="year">August, 2018</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">At mucius deserunt delicatissimi eam, labitur detraxit ut sit</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">17</span>
+									<span class="year">September, 2018</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">At mucius deserunt delicatissimi eam, labitur detraxit ut sit</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>By <a href="#">John Doe</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+					</div>
+
+					<div class="download-btn">
+						<a href="#" class="main-btn">Download Schedule</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Event Schedule -->
+
+	<!-- Speakers -->
+	<div id="speakers" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>The</span> <span style="color: #dd0a37;">Team</span></h3>
+				</div>
+				<!-- section title -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./event/img/speaker01.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./event/img/speaker02.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="./event/img/speaker03.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker modal -->
+				<div id="speaker-modal-1" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="./event/img/speaker-info.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">John Doe</h2>
+											<span class="speaker-job">- Manager, CEO</span>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+											<div class="speaker-website">
+												<h4>Website</h4>
+												<a href="#">www.johndoe.com</a>
+											</div>
+
+											<div class="speaker-social">
+												<h4>Social Profile</h4>
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-instagram"></i></a>
+												<a href="#"><i class="fa fa fa-linkedin"></i></a>
+											</div>
+
+											<div class="speaker-events">
+												<h4>Sessions</h4>
+												<div class="speaker-event">
+													<span><strong>Day 1 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>His id altera fabellas facilisis. Has eros assueverit cu</p>
+												</div>
+
+												<div class="speaker-event">
+													<span><strong>Day 2 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>At mucius deserunt delicatissimi eam, labitur detraxit ut sit</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker modal -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Speakers -->
+
+	<!-- Sponsors -->
+	<div id="sponsors" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>The</span> <span style="color: #dd0a37;">School</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/vision.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/mission.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/goal.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/hymn.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/grade-7.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/grade-8.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/grade-9.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="./event/img/grade-10.png" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Sponsors -->
+
+	<!-- CTA -->
+	<div id="cta" class="section">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./event/img/background03.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- container -->
+			<div class="row">
+				<!-- cta content -->
+				<div class="col-md-8 col-md-offset-2">
+					<div class="cta-content text-center">
+						<h2>Enroll Now!</h2>
+						<p class="lead">The Guidance Department in Franciscan College of the Immaculate Conception, Baybay, Leyte, Incorporated believes that guidance and counselling is an integral part of the total educational program. It focuses on the individual students with unique characteristics, worth and dignity.</p>
+						<a href="resources/index.php" class="main-btn" target="_blank">Sign Up</a>
+					</div>
+				</div>
+				<!-- /cta content -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /CTA -->
+
+	<!-- Contact -->
+	<div id="contact" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Info</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Address</h3>
+						<p>Franciscan College of the Immaculate Conception	Baybay City	Leyte 6521	Philippines</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Phone</h3>
+						<p>(063)-(053)-3352282</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Email</h3>
+						<a href="#">christinepolo141@gmail.com</a>
+					</div>
+				</div>
+				<!-- /contact -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+
+		<!-- Map -->
+		<div id="map"></div>
+		<!-- /Map -->
+	</div>
+	<!-- /Contact -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- footer logo -->
+				<div class="col-md-4 col-md-push-4">
+					<div class="footer-brand">
+						<a class="logo" href="index.html">
+							<img class="logo-img" src="./event/img/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<!-- /footer logo -->
+
+				<!-- contact social -->
+				<div class="col-md-4 col-md-push-4">
+					<div class="contact-social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa fa-linkedin"></i></a>
+					</div>
+				</div>
+				<!-- /contact social -->
+
+				<!-- copyright -->
+				<div class="col-md-4 col-md-pull-8">
+					<span class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true" style="color: red"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<!-- /copyright -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /Footer -->
+
+	<!-- jQuery Plugins -->
+	<script src="event/js/jquery.min.js"></script>
+	<script src="event/js/bootstrap.min.js"></script>
+	<script src="event/js/jquery.waypoints.min.js"></script>
+	<script src="event/js/owl.carousel.min.js"></script>
+	<script src="event/js/jquery.stellar.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="event/js/google-map.js"></script>
+	<script src="event/js/jquery.countTo.js"></script>
+	<script src="event/js/main.js"></script>
 
 </body>
+
 </html>

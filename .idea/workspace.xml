@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="280c320a-9d46-49ac-a468-cf7b7d8aa44b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/iq$index_php__1_.dat" NAME="index.php (1) Coverage Results" MODIFIED="1537109156035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/iq$index_php__3_.dat" NAME="index.php (3) Coverage Results" MODIFIED="1537789406714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/iq$index_php__2_.dat" NAME="index.php (2) Coverage Results" MODIFIED="1537110153015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/iq$index_php.dat" NAME="index.php Coverage Results" MODIFIED="1536907904850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="543" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iq" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/dash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6496">
+              <caret line="406" column="28" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/section.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3537">
+              <caret line="533" column="5" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
+              <folding>
+                <element signature="e#178#184#0" expanded="true" />
+                <element signature="e#185#191#0" expanded="true" />
+                <element signature="e#306#312#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#b#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+                <element signature="e#332#338#1" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#b#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+                <element signature="e#459#465#1" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#273#279#1" expanded="true" />
+                <element signature="e#291#297#0" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#356#362#1" expanded="true" />
+                <element signature="e#372#378#0" expanded="true" />
+                <element signature="e#18#24#0" expanded="true" />
+                <element signature="e#29#35#0" expanded="true" />
+                <element signature="e#18#24#0" expanded="true" />
+                <element signature="e#29#35#0" expanded="true" />
+                <element signature="e#92#98#0" expanded="true" />
+                <element signature="e#92#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/print.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2576">
+              <caret line="161" column="206" selection-start-line="161" selection-start-column="206" selection-end-line="161" selection-end-column="206" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/account.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edit</find>
+      <find>delete</find>
+      <find>student</find>
+      <find>begin</find>
+      <find>.nav</find>
+      <find>testing</find>
+      <find>restar</find>
+      <find>student n</find>
+      <find>restart</find>
+      <find>&lt;?php if (@$_GET['w']) {echo '&lt;script&gt;alert(&quot;' . @$_GET['w'] . '&quot;);&lt;/script&gt;';} ?&gt;</find>
+      <find>id=&quot;usn&quot;</find>
+      <find>By:</find>
+      <find>id=&quot;pass</find>
+      <find>error98</find>
+      <find>his</find>
+      <find>hist</find>
+      <find>history</find>
+      <find>options</find>
+      <find>choices</find>
+      <find>user</find>
+      <find>right</find>
+      <find>$right</find>
+      <find>sahi</find>
+      <find>sunny</find>
+      <find>result</find>
+      <find>exam detail</find>
+      <find>20</find>
+      <find>sec</find>
+      <find>secmin</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/user.sql" />
+        <option value="$PROJECT_DIR$/resources/datatable.html" />
+        <option value="$PROJECT_DIR$/resources/dash2.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f13c2039-c63c-4dc5-be39-18dff850abe0/console.sql" />
+        <option value="$PROJECT_DIR$/resources/js/datatables.php" />
+        <option value="$PROJECT_DIR$/resources/js/datatables link.js" />
+        <option value="$PROJECT_DIR$/resources/datatables.php" />
+        <option value="$PROJECT_DIR$/resources/logout.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.php" />
+        <option value="$PROJECT_DIR$/resources/feed.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/resources/README.md" />
+        <option value="$PROJECT_DIR$/resources/validation.js" />
+        <option value="$PROJECT_DIR$/resources/validation.php" />
+        <option value="$PROJECT_DIR$/resources/index-test2.php" />
+        <option value="$PROJECT_DIR$/resources/index-test.php" />
+        <option value="$PROJECT_DIR$/resources/feedback.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.php" />
+        <option value="$PROJECT_DIR$/resources/sign.php" />
+        <option value="$PROJECT_DIR$/resources/dbConnection.php" />
+        <option value="$PROJECT_DIR$/resources/login.php" />
+        <option value="$PROJECT_DIR$/resources/admin.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.php" />
+        <option value="$PROJECT_DIR$/resources/index.php" />
+        <option value="$PROJECT_DIR$/resources/update.php" />
+        <option value="$PROJECT_DIR$/resources/account.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_16.php" />
+        <option value="$PROJECT_DIR$/resources/section.php" />
+        <option value="$PROJECT_DIR$/resources/print.php" />
+        <option value="$PROJECT_DIR$/resources/dash.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
+        <option value="$PROJECT_DIR$/resources/LICENSE" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="825" />
+    <option name="y" value="160" />
+    <option name="width" value="683" />
+    <option name="height" value="682" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iq" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wampserver/www/iq/resources/account.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544770975064" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript&#10;PHP" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wampserver\www\iq\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php (3)">
+    <configuration name="index.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:1082/iq/online-examination-systen-in-php-master/resources/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3545/iq/online-examination-systen-in-php-master/resources/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:1051/iq/online-examination-systen-in-php-master/resources/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4447/iq/online-examination-systen-in-php-master/resources/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="dash.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/resources/dash.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.php" />
+      <item itemvalue="JavaScript Debug.index.php (1)" />
+      <item itemvalue="JavaScript Debug.index.php (2)" />
+      <item itemvalue="JavaScript Debug.index.php (3)" />
+      <item itemvalue="PHP Script.dash.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php (3)" />
+        <item itemvalue="JavaScript Debug.index.php (2)" />
+        <item itemvalue="JavaScript Debug.index.php (1)" />
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="280c320a-9d46-49ac-a468-cf7b7d8aa44b" name="Default" comment="" />
+      <created>1531637053336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531637053336</updated>
+      <workItem from="1531637081473" duration="7576000" />
+      <workItem from="1531645800665" duration="7619000" />
+      <workItem from="1532438679143" duration="1012000" />
+      <workItem from="1532505898160" duration="8000" />
+      <workItem from="1532506336520" duration="5872000" />
+      <workItem from="1532516523289" duration="1943000" />
+      <workItem from="1532574802895" duration="4238000" />
+      <workItem from="1532844023881" duration="68000" />
+      <workItem from="1532862998562" duration="80000" />
+      <workItem from="1532863496893" duration="368000" />
+      <workItem from="1532865944377" duration="5000" />
+      <workItem from="1532865978468" duration="910000" />
+      <workItem from="1532867165708" duration="112000" />
+      <workItem from="1532867504926" duration="1670000" />
+      <workItem from="1532918927884" duration="6630000" />
+      <workItem from="1532944854152" duration="7136000" />
+      <workItem from="1533007010630" duration="409000" />
+      <workItem from="1533183402343" duration="1119000" />
+      <workItem from="1533257746785" duration="4900000" />
+      <workItem from="1533286272748" duration="54000" />
+      <workItem from="1534082810292" duration="7107000" />
+      <workItem from="1534131794824" duration="2882000" />
+      <workItem from="1534387477204" duration="4491000" />
+      <workItem from="1534399515797" duration="16965000" />
+      <workItem from="1534422647171" duration="5194000" />
+      <workItem from="1534470439877" duration="11959000" />
+      <workItem from="1534506780342" duration="5983000" />
+      <workItem from="1534593950373" duration="1648000" />
+      <workItem from="1535254175419" duration="6763000" />
+      <workItem from="1535267189462" duration="5000000" />
+      <workItem from="1535274332556" duration="3613000" />
+      <workItem from="1535351247505" duration="3919000" />
+      <workItem from="1535599202537" duration="1550000" />
+      <workItem from="1535601012149" duration="3476000" />
+      <workItem from="1535804626671" duration="12656000" />
+      <workItem from="1535820837055" duration="2656000" />
+      <workItem from="1535823512937" duration="5000" />
+      <workItem from="1535866926799" duration="7227000" />
+      <workItem from="1535901501485" duration="6861000" />
+      <workItem from="1535949224527" duration="21078000" />
+      <workItem from="1535984132662" duration="107000" />
+      <workItem from="1536123955724" duration="278000" />
+      <workItem from="1536248789905" duration="314000" />
+      <workItem from="1536475354117" duration="2463000" />
+      <workItem from="1536477979330" duration="2018000" />
+      <workItem from="1536494877252" duration="1721000" />
+      <workItem from="1536550547387" duration="292000" />
+      <workItem from="1536585802797" duration="554000" />
+      <workItem from="1536586668644" duration="46000" />
+      <workItem from="1536829765102" duration="1327000" />
+      <workItem from="1536844764499" duration="45000" />
+      <workItem from="1536905291362" duration="2897000" />
+      <workItem from="1536930998204" duration="556000" />
+      <workItem from="1536979077641" duration="22570000" />
+      <workItem from="1537015529619" duration="5295000" />
+      <workItem from="1537022167529" duration="24000" />
+      <workItem from="1537022342758" duration="53000" />
+      <workItem from="1537079064544" duration="404000" />
+      <workItem from="1537079638531" duration="7158000" />
+      <workItem from="1537093313227" duration="69000" />
+      <workItem from="1537094288142" duration="204000" />
+      <workItem from="1537094813947" duration="20386000" />
+      <workItem from="1537155073345" duration="20850000" />
+      <workItem from="1537250942751" duration="3859000" />
+      <workItem from="1537260662487" duration="3617000" />
+      <workItem from="1537279011090" duration="1604000" />
+      <workItem from="1537337679446" duration="47000" />
+      <workItem from="1537370447024" duration="82000" />
+      <workItem from="1537370648002" duration="84000" />
+      <workItem from="1537456836111" duration="1098000" />
+      <workItem from="1537514598420" duration="1453000" />
+      <workItem from="1537605806750" duration="413000" />
+      <workItem from="1537763777300" duration="3434000" />
+      <workItem from="1537785796157" duration="3631000" />
+      <workItem from="1538055732997" duration="1939000" />
+      <workItem from="1538382411434" duration="717000" />
+      <workItem from="1538493946303" duration="35000" />
+      <workItem from="1538577569068" duration="6082000" />
+      <workItem from="1538704981509" duration="8775000" />
+      <workItem from="1538721656462" duration="1562000" />
+      <workItem from="1539401738076" duration="2322000" />
+      <workItem from="1539410542976" duration="3318000" />
+      <workItem from="1539435669930" duration="90000" />
+      <workItem from="1539435793344" duration="5650000" />
+      <workItem from="1539877697647" duration="119000" />
+      <workItem from="1539943068574" duration="2283000" />
+      <workItem from="1540138341504" duration="44000" />
+      <workItem from="1540138756823" duration="27000" />
+      <workItem from="1540205569010" duration="1159000" />
+      <workItem from="1540214059755" duration="347000" />
+      <workItem from="1540642552708" duration="1411000" />
+      <workItem from="1540644282101" duration="627000" />
+      <workItem from="1540650319655" duration="872000" />
+      <workItem from="1543419165537" duration="600000" />
+      <workItem from="1543565482077" duration="817000" />
+      <workItem from="1543567196435" duration="1175000" />
+      <workItem from="1543631931897" duration="249000" />
+      <workItem from="1543931090527" duration="1008000" />
+      <workItem from="1544276992588" duration="154000" />
+      <workItem from="1544636312278" duration="334000" />
+      <workItem from="1544636712570" duration="47000" />
+      <workItem from="1544685557204" duration="84000" />
+      <workItem from="1544769391930" duration="1249000" />
+      <workItem from="1545106000064" duration="1591000" />
+      <workItem from="1545108648399" duration="656000" />
+      <workItem from="1545110127384" duration="50000" />
+      <workItem from="1545308898698" duration="42000" />
+      <workItem from="1545878528923" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="337755000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32905295" />
+      <window_info id="Designer" order="3" />
+      <window_info id="DB Browser" order="4" weight="0.28214827" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.58247423" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32534248" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.5756014" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="14" visible="true" weight="0.30584192" />
+      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49828178" weight="0.5790378" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.2212991" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5017182" side_tool="true" weight="0.31543118" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1913767" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" id="DB Browser" order="4" visible="true" weight="0.28214827" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3281787" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.5756014" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.22163388" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/options" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="385" selection-end-column="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="359" lean-forward="true" selection-start-line="5" selection-start-column="359" selection-end-line="5" selection-end-column="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/svg11/svg-shape.rnc" />
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/history" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-transitional.dtd" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/validation.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.php" />
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/admin" />
+    <entry file="file://$PROJECT_DIR$/resources/index-test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="177" column="29" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="279" column="1" selection-start-line="279" selection-start-column="1" selection-end-line="279" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="141" column="24" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/datatables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dbConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/index-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/success.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="703" column="31" lean-forward="true" selection-start-line="703" selection-start-column="31" selection-end-line="703" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.php" />
+    <entry file="file://$PROJECT_DIR$/resources/sign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.php" />
+    <entry file="file://$PROJECT_DIR$/resources/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1712">
+          <caret line="7555" column="4" selection-start-line="7555" selection-start-column="4" selection-end-line="7555" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="333" column="181" selection-start-line="333" selection-start-column="181" selection-end-line="333" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/feedback">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/questions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/rank">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/exam">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/choices">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/average">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/answer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/section">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f13c2039-c63c-4dc5-be39-18dff850abe0/schema/project/table/scores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_16.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6496">
+          <caret line="406" column="28" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2576">
+          <caret line="161" column="206" selection-start-line="161" selection-start-column="206" selection-end-line="161" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3537">
+          <caret line="533" column="5" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
+          <folding>
+            <element signature="e#178#184#0" expanded="true" />
+            <element signature="e#185#191#0" expanded="true" />
+            <element signature="e#306#312#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#b#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#332#338#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#b#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#459#465#1" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#273#279#1" expanded="true" />
+            <element signature="e#291#297#0" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#356#362#1" expanded="true" />
+            <element signature="e#372#378#0" expanded="true" />
+            <element signature="e#18#24#0" expanded="true" />
+            <element signature="e#29#35#0" expanded="true" />
+            <element signature="e#18#24#0" expanded="true" />
+            <element signature="e#29#35#0" expanded="true" />
+            <element signature="e#92#98#0" expanded="true" />
+            <element signature="e#92#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
